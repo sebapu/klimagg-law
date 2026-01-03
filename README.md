@@ -1,8 +1,9 @@
 # klimagg-law
 
-> Public, read-only repository for the text of the Klima Generations Act (KlimaGG)  
-> Öffentlich einsehbares, schreibgeschütztes Repository für den Text des Klima-Generationen-Gesetzes.
+> [EN] Public, read-only repository for the text of the Klima Generations Act (KlimaGG)  
+> [DE] Öffentlich einsehbares, schreibgeschütztes Repository für den Text des Klima-Generationen-Gesetzes.
 
+> Hier geht's zur Entwurfsplattform: https://www.klimagg.de (oder https://www.klima-genertionen-gesetz.de).
 ---
 
 ## Purpose
