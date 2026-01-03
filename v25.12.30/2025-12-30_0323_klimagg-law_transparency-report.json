@@ -1,0 +1,73 @@
+{
+  "schema_version": "transparency-v1",
+  "kind": "release",
+  "period": {
+    "start": "2025-12-01T00:00:00Z",
+    "end": "2025-12-30T03:23:04Z",
+    "days": 30
+  },
+  "snapshot": {
+    "generated_at": "2025-12-30T03:23:04Z",
+    "generator": {
+      "name": "export_snapshot.py",
+      "version": "1.0.0"
+    },
+    "backend_version": "v1.0.14",
+    "export_id": "2025-12-30T03-23-04Z"
+  },
+  "community": {
+    "users": {
+      "total": 1,
+      "new_in_period": null,
+      "with_comments": null,
+      "with_votes": null,
+      "with_meeting_opt_in": null
+    },
+    "comments": {
+      "total": 0,
+      "new_in_period": null,
+      "by_status": null,
+      "by_article": null
+    },
+    "votes": {
+      "total": 0,
+      "new_in_period": null,
+      "by_emoji": null,
+      "by_article": null
+    },
+    "reviews": {
+      "total": null,
+      "completed": null,
+      "open": null
+    }
+  },
+  "content": {
+    "articles_total": 71,
+    "article_versions_total": 71,
+    "words_total": null,
+    "chars_total": null,
+    "attachments": {
+      "technology_infos": null,
+      "annexes": null
+    }
+  },
+  "technical": {
+    "snapshot_files": {
+      "html": "2025-12-30_0323_klimagg-law_entwurf.html",
+      "json": "2025-12-30_0323_klimagg-law_anonymisiert.json",
+      "tex": "2025-12-30_0323_klimagg-law_entwurf.tex",
+      "pdf": "2025-12-30_0323_klimagg-law_entwurf.pdf",
+      "transparency_json": "2025-12-30_0323_klimagg-law_transparency-report.json"
+    },
+    "db": {
+      "engine": "unknown",
+      "schema_migration": null,
+      "row_counts": {
+        "users": 1,
+        "articles": 71,
+        "comments": 0,
+        "votes": 0
+      }
+    }
+  }
+}
