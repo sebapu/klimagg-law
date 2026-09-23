@@ -21,43 +21,46 @@ comments or forks, but write access to the main branch is restricted.
 
 ---
 
-## Relationship to other repositories
+## Relationship to the KlimaGG project
 
-- **`klimagg-tech`** – technical backbone and reference architecture for
-  implementing the digital infrastructure required by KlimaGG.
+- **[klimagg.de](https://www.klimagg.de/)** – public presentation, participation
+  platform and editorial website of the KlimaGG project.
 
-- **`klimagg-web`** – website and frontend content; may display or reference
-  specific versions of the law.
+- **[`klimagg-tech`](https://github.com/sebapu/klimagg-tech)** – collaborative
+  technical and analytical working repository for models, evidence, specifications
+  and reference implementations.
 
-The **authoritative public presentation** of the law may live on a website
-(e.g. `klimagg.de`). This repository is a **versioned backup and transparency
-artifact**.
+- **[`klimagg-web`](https://github.com/sebapu/klimagg-web)** – open-source
+  software core used for parts of the participation and publication platform.
+
+This repository contains the versioned legal drafts and related original material.
+It is not a source-code mirror of klimagg.de and the licences of the individual
+repositories apply independently.
+
+The authoritative public presentation of the current draft may live on
+klimagg.de. This repository serves as a stable version history and transparency
+archive.
 
 ---
 
-## Repository structure (suggested)
+## License
 
-text
-current/
-  klimagg-entwurf.md   # canonical current version of the law (plain text / markdown)
-history/
-  YYYY-MM-DD-vX.Y.Z/
-    klimagg-entwurf.md # snapshot of the law at that date / version
-    notes.md           # optional notes on what changed and why
-annex/
-  stories/             # narrative examples, stories, non-normative material
-  background/          # background papers, references, analyses
-  
-You can refine this structure over time, but keep:
+Unless explicitly stated otherwise, the original legal drafts, explanatory texts,
+background material and other original content in this repository are dedicated
+to the public domain under **CC0 1.0 Universal**.
 
- - a single clear "current" version, and
- - stable historical snapshots for reference, citation and comparison.
+See [`LICENSE`](LICENSE).
+
+Third-party material, quotations, source data and other externally sourced works
+remain subject to their respective rights and licence terms.
 
 ## Versioning and tags
 
 At this stage, we do not accept direct pull requests into main by default,
 to keep the legal development path coherent. For now, submit comments to klimagg.de, 
 this repository is merely a public lookup. This may change later.
+
+---
 
 ## Disclaimer
 
